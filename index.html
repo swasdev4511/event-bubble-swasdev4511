@@ -1,0 +1,14 @@
+<!-- Event - bubbling -->
+
+<div class="customClass" id="div1" onclick="clickHandler()">
+  Div1
+  <div class="customClass" id="div2">
+    Div2
+    <div class="customClass" id="div3" onclick="clickHandler()">
+      Div3
+      <div class="customClass" id="div4" onclick="clickHandler()">
+        Div4
+      </div>
+    </div>
+  </div>
+</div>

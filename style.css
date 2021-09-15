@@ -1,0 +1,11 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.customClass {
+  display: table-cell;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
